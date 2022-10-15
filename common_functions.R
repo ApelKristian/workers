@@ -5,13 +5,13 @@ library(tidyverse)
 configure_global_user_agent <- function() {
   
   #read in list of user agents
-  all_agents <- read_csv2("~/Documents/common/data/agents.csv")
+  all_agents <- read_csv2("~/Documents/scripts/data/agents.csv")
   
   #select user agent if one hasn't been set yet
-  if(!(list.files("~/Documents/common/data") %>% str_detect("selected_agent") %>% any())) {
+  if(!(list.files("~/Documents/scripts/data") %>% str_detect("selected_agent") %>% any())) {
     
     selected_agent <- sample(all_agents, 1)
-    saveRDS(selected_agent, "~/Documents/common/data/selected_agent")
+    saveRDS(selected_agent, "~/Documents/scripts/data/selected_agent")
   }
 }
 
