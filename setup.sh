@@ -14,3 +14,5 @@ sudo add-apt-repository "deb https://cloud.r-project.org/bin/linux/ubuntu $(lsb_
 sudo apt install --no-install-recommends r-base -y
 sudo add-apt-repository ppa:c2d4u.team/c2d4u4.0+
 sudo apt install --no-install-recommends r-cran-tidyverse -y
+
+sudo R -e "install.packages(c("lubridate", "httr2"))"
