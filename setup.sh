@@ -17,4 +17,4 @@ sudo apt install --no-install-recommends r-base -y
 sudo add-apt-repository ppa:c2d4u.team/c2d4u4.0+
 sudo apt install --no-install-recommends r-cran-tidyverse -y
 
-sudo R -e "install.packages(c("lubridate", "httr2"))"
+sudo R -e 'install.packages(c("lubridate", "httr2"))'
