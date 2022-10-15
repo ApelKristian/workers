@@ -1,7 +1,6 @@
 #functions needed for common worker tasks
 library(tidyverse)
 
-
 #choose a user agent for the worker (only called rarely)
 configure_global_user_agent <- function() {
   
