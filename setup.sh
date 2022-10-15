@@ -1,5 +1,8 @@
 #! /bin/bash
 
+#call this comment on the VPS:
+# wget -O - https://raw.githubusercontent.com/ApelKristian/workers/main/setup.sh | bash
+
 #basic stuff
 sudo apt-get install build-essential -y
 sudo apt --fix-broken install -y && sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y
