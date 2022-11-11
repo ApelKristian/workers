@@ -42,3 +42,5 @@ wget https://raw.githubusercontent.com/ApelKristian/workers/master/common_functi
 wget https://raw.githubusercontent.com/ApelKristian/workers/master/init_setup_R.R
 Rscript init_setup_R.R
 
+#download Digitalocean
+
